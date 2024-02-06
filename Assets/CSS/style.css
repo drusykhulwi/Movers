@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    
+    overflow-x: hidden;
+}
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/Assets/Images/movers-hero.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f5f5f5;
+}
+.home .container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.home .container .heading{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+.home .container .heading .navigation{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home .container .heading button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 20px;
+}
+.home .container .hero{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home .container .hero .hero-content{
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .container .hero .hero-content h1{
+    font-size: 15px;
+}
+.home .container .hero .hero-content h2{
+    font-size: 45px;
+    line-height: 55px;
+}
+.home .container .hero .hero-content h2 span{
+    color: #4ef037;
+}
+.home .container .hero .hero-content p{
+    font-size: 20px;
+}
+.home .container .hero .quotation{
+    width: 35%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(131, 88, 11, 0.3);
+}
+.home .container .hero .quotation h1{
+    line-height: 45px;
+}
+.home .container .hero .quotation p{
+    height: 15vh;
+}
+.home .container .hero .quotation form{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.home .container .hero .quotation form .form-input{
+    height: 20%;
+    width: 100%;
+}
+.home .container .hero .quotation form .form-input input{
+    height: 80%;
+    width: 62%;
+}
+.home .container .hero .quotation form .form-input .dual{
+    width: 30%;
+}
+.home .container .hero .quotation form .button{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.home .container .hero .quotation form .button input{
+    width: 65%;
+    height: 70%;
+    background-color: #4ef037;
+    border: 1px solid #4ef037;
+}
+.about-us{
+    width: 100vw;
+    height: 100vh;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.about-us .container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-us .container .about-us-image{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    position: relative;
+}
+.about-us .container .about-us-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.about-us .container .about-us-image .image-1{
+    width: 50%;
+    height: 80%;
+    margin-right: -20vw;
+    background-image: url(../Images/about1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.about-us .container .about-us-image .image-2{
+    width: 30%;
+    height: 80%;
+    background-image: url(../Images/images2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-us .container .about-us-content{
+    width: 40%;
+    height: 60%;
+
+}
